@@ -1,0 +1,11 @@
+{ 
+  "code-runner.executorMap": {
+    "javascript": "node",
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+    "python": "python -u",
+    "go": "go run",
+    "typescript": "npx ts-node-dev --transpile-only --files",
+    "r": "Rscript",
+    "dart": "dart",
+  }
+}
